@@ -1,5 +1,5 @@
 module "platform" {
-  source = "git@github.com:sbwise01/myplatformmodule.git?ref=release/1.0.0"
+  source = "git@github.com:sbwise01/myplatformmodule.git?ref=release/1.1.0"
 
   providers = {
     kubernetes.eks = kubernetes.eks
